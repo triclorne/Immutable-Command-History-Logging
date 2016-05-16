@@ -15,6 +15,9 @@ chmod 711 /usr/bin/who ----out
 chmod -R 777  /var/log/histlog/ 
 
 To enable the command logging for each user,there are two methods 
+
+
+
 METHOD 1---A new server with no user on it 
 vim /etc/skel/.bashrc 
 and add the following at the end of the file 
