@@ -1,6 +1,10 @@
 # Immutable-Command-History-Logging
-I collected this the code about 6years ago from a source I cannot trace.
-Upon recording a few lines to make it work, here is how to implement it on your Linux environment
+I collected this the code about 6years ago from a source I cannot trace but I will find it to give credits.
+It has a lot of bugs as it was originally meant for FreeBSD environment
+Upon recoding a couple of lines to make it work, here is how to implement it on your Linux environment.
+It helps you to keep an accurate track of every linux command that a user runs on a system and better yet 
+make it immutable for forensics cases.
+Even r00t user cannot edit the file unless a few ways to bypass it
 
 Create a file in the directory /usr/local/bin/ 
 git clone hcmnt into the folder /usr/local/bin/
